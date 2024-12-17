@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Carlos García", "email": "carlos.garcia@email.com", "city": "Madrid", "phone": "612345678" },
+  { "id": 2, "name": "Ana López", "email": "ana.lopez@email.com", "city": "Barcelona", "phone": "623456789" },
+  { "id": 3, "name": "Luis Rodríguez", "email": "luis.rodriguez@email.com", "city": "Sevilla", "phone": "634567890" },
+  { "id": 4, "name": "María Fernández", "email": "maria.fernandez@email.com", "city": "Valencia", "phone": "645678901" },
+  { "id": 5, "name": "José Pérez", "email": "jose.perez@email.com", "city": "Zaragoza", "phone": "656789012" },
+  { "id": 6, "name": "Laura González", "email": "laura.gonzalez@email.com", "city": "Bilbao", "phone": "667890123" },
+  { "id": 7, "name": "Javier Martínez", "email": "javier.martinez@email.com", "city": "Málaga", "phone": "678901234" },
+  { "id": 8, "name": "Isabel Sánchez", "email": "isabel.sanchez@email.com", "city": "Alicante", "phone": "689012345" },
+  { "id": 9, "name": "Antonio Díaz", "email": "antonio.diaz@email.com", "city": "Murcia", "phone": "690123456" },
+  { "id": 10, "name": "Beatriz Romero", "email": "beatriz.romero@email.com", "city": "Granada", "phone": "601234567" }
+]
