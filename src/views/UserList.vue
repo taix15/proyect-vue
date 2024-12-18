@@ -1,11 +1,11 @@
 <template>
-  <div class="max-w-3xl mx-auto p-4">
-    <h1 class="text-2xl font-semibold text-center mb-6">Usuarios</h1>
+  <div class="max-w-3xl p-4 mx-auto ">
+    <h1 class="mb-6 text-2xl font-semibold text-center">Lista de usuarios</h1>
     <ul class="space-y-4">
       <li 
         v-for="user in users" 
         :key="user.id"
-        class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+        class="p-4 transition-shadow duration-300 bg-white rounded-lg shadow-lg hover:shadow-xl"
       >
         <router-link 
           :to="'/usuarios/' + user.id"

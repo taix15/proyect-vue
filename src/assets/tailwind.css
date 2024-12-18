@@ -1,3 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-gradient-global { @apply bg-gradient-to-r from-blue-400 to-purple-600; }

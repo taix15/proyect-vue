@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">
-        Inicio
-      </router-link> |
-      <router-link to="/usuarios">
-        Usuarios
-      </router-link>
-    </nav>
-    <router-view />
+  <div class="min-h-screen bg-gradient-global">
+    <div id="app">
+      <nav>
+        <router-link to="/">Inicio</router-link> |
+        <router-link to="/usuarios">Usuarios</router-link>
+      </nav>
+      <router-view />
+    </div>
   </div>
 </template>
 
