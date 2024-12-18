@@ -1,12 +1,9 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-   
-    <h1 class="text-4xl font-bold text-blue-600 mb-6">
+  <div class="flex flex-col items-center justify-center min-h-screen">
+    <h1 class="mb-6 text-4xl font-bold text-blue-600">
       Detalles del Usuario
     </h1>
-
-  
-    <div v-if="user" class=" bg-white shadow-lg rounded-lg p-6 w-80">
+    <div v-if="user" class="p-6 bg-white rounded-lg shadow-lg w-80">
       <p class="mb-4 text-lg text-gray-700">
         <strong class="font-semibold">Nombre:</strong>
         {{ user.name }}
@@ -20,13 +17,11 @@
         {{ user.phone }}
       </p>
     </div>
-
-
     <router-link 
       to="/usuarios" 
-      class="mt-6 text-blue-500 hover:underline font-medium"
+      class="px-4 py-2 mt-6 text-white transition duration-300 bg-blue-500 rounded hover:bg-blue-600"
     >
-      ← Volver a la lista
+      ← Volver atrás
     </router-link>
   </div>
 </template>
